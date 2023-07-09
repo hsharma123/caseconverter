@@ -1,0 +1,45 @@
+.convert{
+    &-button{
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       gap: 10px;
+       column-gap: 4px;
+        
+    }
+    &-btn{
+        background-color: $primary;
+        padding: 8px 12px;
+        color: $text-color;
+        border-radius: 5px;
+        border: 1px solid $primary;
+        &:hover{
+            background-color:  $secondary;
+            border: 1px solid $secondary;
+            color: $text-color;
+        }
+        &:active{
+            background-color:  $secondary !important;
+            border: 1px solid $secondary !important;
+            color: $text-color !important;
+        }
+    }
+    &-area{
+        border: 3px solid $primary;
+    
+    }
+}
+@media(max-width:767px){
+    .convert{
+        &-button{
+           display: flex;
+           justify-content: space-between;
+           flex-wrap: wrap;
+           flex-direction: column;
+           gap: 10px;
+           column-gap: 4px;
+            
+        }
+    }
+}
+

@@ -1,0 +1,26 @@
+.bg-primary{
+    background-color:  $primary !important;
+}
+.bg-secondary{
+    background-color:  $secondary !important;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color:  $bg-color;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: 3px solid $primary;
+    outline: none;
+}
+.text-primary{
+    color: $secondary !important;
+}
+.text-secondary{
+    color: $text-color !important;
+}
+
+
